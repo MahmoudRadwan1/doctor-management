@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include doctor_managemet *.css
+recursive-include doctor_managemet *.csv
+recursive-include doctor_managemet *.html
+recursive-include doctor_managemet *.ico
+recursive-include doctor_managemet *.js
+recursive-include doctor_managemet *.json
+recursive-include doctor_managemet *.md
+recursive-include doctor_managemet *.png
+recursive-include doctor_managemet *.py
+recursive-include doctor_managemet *.svg
+recursive-include doctor_managemet *.txt
+recursive-exclude doctor_managemet *.pyc
